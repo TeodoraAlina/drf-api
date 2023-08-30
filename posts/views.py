@@ -45,7 +45,7 @@ class PostDetail(APIView):
             return post
         except Post.DoesNotExist:
             raise Http404
- 
+
     def get(self, request, pk):
         post = self.get_object(pk)
         serializer = PostSerializer(
