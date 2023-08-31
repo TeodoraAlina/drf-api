@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-8a=c46=afl42)_l6sd1js79k4h*i2=nxn7qwy)6mf3u&88n=x3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-teodoraalina-drfapi2-40gfqj9f7pi.ws-eu104.gitpod.io']
+ALLOWED_HOSTS = ['8000-teodoraalina-drfapi2-l5180v25zd2.ws-eu104.gitpod.io']
 
 
 # Application definition
@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'posts',
     'comments',
     'likes',
+    'followers',
 ]
 
 MIDDLEWARE = [
