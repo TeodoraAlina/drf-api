@@ -12,6 +12,7 @@ def root_route(request):
         "message": "Welcome to my drf API!"
     })
 
+
 def logout_route(request):
     response = Response()
     response.srt_cookie(
